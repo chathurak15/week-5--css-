@@ -1,0 +1,70 @@
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    .container{
+        width: auto;
+        margin: 7px;
+       
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-logo img{
+        height: 50px;
+    }
+
+
+    .paradise{
+        color: white;
+        font-size: 45px;
+        font-weight: 600;
+        text-shadow: 0 10 15px black;
+    }
+
+    .hero-text{
+        margin-top: 20px;
+        font-size: 50px;
+        color: white;
+        text-shadow: 0 0px 15px black;
+    }
+
+    .hero-tag{
+        margin-top: 30px;
+        font-size: 22px;
+        color: white;
+        text-shadow: 0 0px 5px black;
+    }
+
+    .hero-img{
+        opacity: 100%;
+    }
+
+    .facilities-row{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .swimming-pool{
+        padding: 17px;
+        width: 35%;
+    }
+
+}
